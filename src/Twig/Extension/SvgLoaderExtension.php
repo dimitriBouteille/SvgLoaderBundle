@@ -2,7 +2,7 @@
 
 namespace Dbout\Bundle\SvgLoaderBundle\Twig\Extension;
 
-use Dbout\Bundle\SvgLoader\Loader\DboutSvgLoaderInterface;
+use Dbout\Bundle\SvgLoaderBundle\Loader\DboutSvgLoaderInterface;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
