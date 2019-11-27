@@ -1,0 +1,30 @@
+{
+  "name": "dbout/svg-loader-bundle",
+  "description": "Small bundle to load Svg files for Symfony 4.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "keywords": ["svg", "php", "symfony", "loader", "dom", "twig", "bundle"],
+  "homepage": "https://github.com/dimitriBouteille/SvgLoaderBundle/",
+  "support": {
+    "issues": "https://github.com/dimitriBouteille/SvgLoaderBundle/issues"
+  },
+  "authors": [
+    {
+      "name": "Dimitri Bouteille",
+      "email": "bonjour@dimitri-bouteille.fr",
+      "homepage": "https://github.com/dimitriBouteille",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php":                      "^7.2",
+    "symfony/framework-bundle": "^4.3 || ^5.0",
+    "twig/twig":                "^2.0 || ^3.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Dbout\\Bundle\\SvgLoaderBundle\\": "src/"
+    }
+  }
+}

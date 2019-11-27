@@ -1,0 +1,10 @@
+services:
+  dbout.svg_loader.loader:
+    public: true
+    class: Dbout\Bundle\SvgLoaderBundle\Loader\DboutSvgLoader
+    arguments: ['%svg_loader.resourcePath%']
+  Dbout\Bundle\SvgLoaderBundle\Twig\Extension\SvgLoaderExtension:
+    tags: ['twig.extension']
+    arguments: ['@dbout.svg_loader.loader']
+
+  Dbout\Bundle\SvgLoaderBundle\Loader\DboutSvgLoaderInterface: '@dbout.svg_loader.loader'
